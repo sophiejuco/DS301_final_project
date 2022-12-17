@@ -8,6 +8,9 @@ Average IoC: 0.370
 
 Prediction shape errors: 0 (out of 6158)
 
+![alt text](https://github.com/sophiejuco/DS301_final_project/blob/main/model0sts.png?raw=true)
+
+
 ## Partial fine-tuning (8 layers)
 Time: ~678s/step
 
