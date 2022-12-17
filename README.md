@@ -1,15 +1,26 @@
 # DS301_final_project
 DS-301 Final Project: Document localization with transfer learning (al6253 &amp; smj490)
-
+<br>
+This repository contains the code notebooks used to experiment with using a pre-trained ResNet-18 to recognize document corners in video frames.
+* <em>csv-cleaning.ipynb</em> was used to remove unnecessary characters from the ground truth files.
+* <em>GDrive_to_GCS.ipynb</em> was used to transfer the dataset from Google Drive to Google Cloud Storage.
+* <em>training.ipynb</em> was used to load and train the CNN.
+* <em>prediction-analysis.ipynb</em> was used to evaluate model performance using the intersection-over-union (IoU) metric.
+* <em>utils.py</em> contains helper functions for analysis and visualization.
+<br>
+There are also some folders:
+* <em>Prediction plots</em> contains sample results from our trained models.
+* <em>Training plots</em> contains graphs of training metrics.
+<br>
+The dataset used can be downloaded from this Google Drive [folder](https://drive.google.com/drive/folders/1N9M8dHIMt6sQdoqZ8Y66EJVQSaBTq9cX?usp=share_link).
+<br><br>
+# Results:
 ## Regression head training only
 Time: ~639s/step
 
 Average IoC: 0.370
 
 Prediction shape errors: 0 (out of 6158)
-
-![alt text](https://github.com/sophiejuco/DS301_final_project/blob/main/model0sts.png?raw=true)
-
 
 ## Partial fine-tuning (8 layers)
 Time: ~678s/step
