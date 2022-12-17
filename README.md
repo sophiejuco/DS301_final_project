@@ -5,7 +5,7 @@ This repository contains the code notebooks used to experiment with using a pre-
 * <em>csv-cleaning.ipynb</em> was used to remove unnecessary characters from the ground truth files.
 * <em>GDrive_to_GCS.ipynb</em> was used to transfer the dataset from Google Drive to Google Cloud Storage.
 * <em>training.ipynb</em> was used to load and train the CNN.
-* <em>prediction-analysis.ipynb</em> was used to evaluate model performance using the intersection-over-union (IoU) metric.
+* <em>prediction_analysis.ipynb</em> was used to evaluate model performance using the intersection-over-union (IoU) metric.
 * <em>utils.py</em> contains helper functions for analysis and visualization.
 <br>
 
