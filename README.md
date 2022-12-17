@@ -20,20 +20,35 @@ The dataset used can be downloaded from this Google Drive folder: https://drive.
 ## Regression head training only
 Time: ~639s/step
 
-Average IoC: 0.370
+Average IoU: 0.370
 
 Prediction shape errors: 0 (out of 6158)
+
+![alt text](https://github.com/sophiejuco/DS301_final_project/blob/main/Training-plots/model0sts.png?raw=true)
+
+Example - test image 0: IoU = 0.207
+![alt text](https://github.com/sophiejuco/DS301_final_project/blob/main/Prediction-plots/pred0.png?raw=true)
 
 ## Partial fine-tuning (8 layers)
 Time: ~678s/step
 
-Average IoC: 0.693
+Average IoU: 0.693
 
 Predicition shape errors: 3 (out of 6158)
+
+![alt text](https://github.com/sophiejuco/DS301_final_project/blob/main/Training-plots/pft_model_sts.png?raw=true)
+
+Example - test image 0: IoU = 0.723
+![alt text](https://github.com/sophiejuco/DS301_final_project/blob/main/Prediction-plots/pred1.png?raw=true)
 
 ## Full fine-tuning
 Time: ~749s/step
 
-Average IoC: 0.822
+Average IoU: 0.822
 
 Prediction shape errors: 0 (out of 6158)
+
+![alt text](https://github.com/sophiejuco/DS301_final_project/blob/main/Training-plots/fft_model_sts.png?raw=true)
+
+Example - test image 0: IoU = 0.814
+![alt text](https://github.com/sophiejuco/DS301_final_project/blob/main/Prediction-plots/pred2.png?raw=true)
